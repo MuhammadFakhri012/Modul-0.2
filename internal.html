@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh CSS Internal</title>
+  </head>
+  <body>
+    <div class="p">
+      <style>
+        p {
+          text-align: center;
+          color: red;
+        }
+      </style>
+      <p>Every paragraph will be affected by the style.</p>
+      <p id="para1">Me too!</p>
+      <p>And me!</p>
+    </div>
+    <div class="#paral">
+      <style>
+        #para1 {
+          text-align: center;
+          color: red;
+        }
+      </style>
+      <h1 id="para1">Hello World!</h1>
+      <h1>This paragraph is not affected by the style.</h1>
+    </div>
+    <div class="center">
+      <style>
+        .center {
+          text-align: center;
+          color: red;
+        }
+      </style>
+      <h1 class="center">Red and center-aligned heading</h1>
+      <p class="center">Red and center-aligned paragraph.</p>
+    </div>
+    <div class="p.center">
+      <style>
+        p.center {
+          text-align: center;
+          color: red;
+        }
+      </style>
+      <h1 class="p.center">This heading will not be affected</h1>
+      <p class="p.center">This paragraph will be red and center-aligned.</p>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh CSS Internal</title>
+</head>
+<body>
+  <div class="p">
+    <style>
+      p {
+      text-align: center;
+      color: red;
+    }
+  </style>
+    <p>Every paragraph will be affected by the style.</p> 
+<p id="para1">Me too!</p> 
+<p>And me!</p> 
+  </div>
+  <div class="#paral">
+    <style> 
+#para1 { 
+    text-align: center; 
+    color: red; 
+} 
+</style> 
+    <h1 id="para1">Hello World!</h1> 
+<h1>This paragraph is not affected by the style.</h1> 
+  </div>
+  <div class="center">
+    <style> 
+.center { 
+    text-align: center; 
+    color: red; 
+} 
+</style>
+    <h1 class="center">Red and center-aligned heading</h1> 
+<p class="center">Red and center-aligned paragraph.</p> 
+  </div>
+  <div class="p.center">
+    <style> 
+p.center { 
+    text-align: center; 
+    color: red; 
+} 
+</style> 
+    <h1 class="p.center">This heading will not be affected</h1> 
+<p class="p.center">This paragraph will be red and center-aligned.</p> 
+  </div>
+</body>
+</html>
