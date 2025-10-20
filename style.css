@@ -1,0 +1,40 @@
+body { 
+  background-color: lightblue; 
+
+} 
+
+h1 { 
+ color: navy; 
+ margin-left: 20px; 
+
+}
+<style> 
+
+h2 { 
+ text-align: center; 
+
+} 
+
+p.date { 
+ text-align: right; 
+
+} 
+
+p.main { 
+ text-align: justify; 
+
+}
+</style> 
+<style> 
+
+p.serif { 
+ font-family: "Times New Roman", Times, serif; 
+
+} 
+
+p.sansserif { 
+ font-family: Arial, Helvetica, sans-serif; 
+
+} 
+
+</style>
